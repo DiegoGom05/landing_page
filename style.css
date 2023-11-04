@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202236;
+    color:aliceblue;
+    padding: 10px 16px;
+    margin: 0;
+}
+.logo{
+    font-weight: 700;
+}
+.links{
+    display: flex;
+    font-size: 16px;
+    gap: 16px;
+    
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.content{
+    display: flex;
+  
+    flex: 1;
+    flex-direction: column;
+   
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202236;
+    color:aliceblue ;
+    padding:10px;
+    font-size: 16px;
+}
+.presentation{
+    display: flex;
+    padding: 25px 25px 50px 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #202236;
+    color:aliceblue;
+}
+.presentation img{
+    height: 250px;
+    display: flex;
+}
+.title{
+    font-size: 48px;
+}
+.title-content{
+    padding: 0 35px;
+    margin-right: 40px;
+}
+#first-btn{
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: white;
+}
+.info-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-section{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 0 40px;
+    margin-bottom: 52px;
+    
+}
+.info{
+    max-width: 200px;
+    text-align: center;
+}
+.info img{
+    border-radius: 10px;
+    height: 120px;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding: 72px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    font-weight: 700;
+    text-align: end;
+}
+.sign-up{
+    padding: 48px;
+    font-size: 16px;
+    color: aliceblue;
+}
+.sign-up-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    background-color:#3882F6 ;
+}
+.sign-up-text{
+    padding-right: 16px;
+}
+#action{
+    font-weight: 700;
+    font-size: 24px;
+}
+.sign-up-action button{
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 24px;
+    background-color: #3882F6;
+    color: white;
+    height: 42px;
+    border-color: white;
+    word-wrap: break-word;
+}
